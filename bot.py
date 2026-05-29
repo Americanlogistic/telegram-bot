@@ -61,4 +61,4 @@ Email: {data['email']}
         bot.send_message(uid, "Thank you! We will contact you shortly ✅")
         user_data[uid] = {}
 
-bot.polling()
+bot.infinity_polling()
